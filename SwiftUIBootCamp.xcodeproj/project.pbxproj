@@ -14,6 +14,7 @@
 		50AE97CC294A79A90011EAEF /* SwiftUIBootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97CB294A79A90011EAEF /* SwiftUIBootCampTests.swift */; };
 		50AE97D6294A79A90011EAEF /* SwiftUIBootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97D5294A79A90011EAEF /* SwiftUIBootCampUITests.swift */; };
 		50AE97D8294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97D7294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift */; };
+		50AE97E6294A7AB00011EAEF /* AddingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97E5294A7AB00011EAEF /* AddingText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		50AE97D1294A79A90011EAEF /* SwiftUIBootCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBootCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AE97D5294A79A90011EAEF /* SwiftUIBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampUITests.swift; sourceTree = "<group>"; };
 		50AE97D7294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50AE97E5294A7AB00011EAEF /* AddingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				50AE97BA294A79A70011EAEF /* SwiftUIBootCampApp.swift */,
-				50AE97BC294A79A70011EAEF /* ContentView.swift */,
+				50AE97E4294A7A070011EAEF /* SwiftUILessons */,
 				50AE97BE294A79A80011EAEF /* Assets.xcassets */,
 				50AE97C0294A79A80011EAEF /* Preview Content */,
 			);
@@ -125,6 +127,15 @@
 				50AE97D7294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIBootCampUITests;
+			sourceTree = "<group>";
+		};
+		50AE97E4294A7A070011EAEF /* SwiftUILessons */ = {
+			isa = PBXGroup;
+			children = (
+				50AE97BC294A79A70011EAEF /* ContentView.swift */,
+				50AE97E5294A7AB00011EAEF /* AddingText.swift */,
+			);
+			path = SwiftUILessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AE97E6294A7AB00011EAEF /* AddingText.swift in Sources */,
 				50AE97BD294A79A70011EAEF /* ContentView.swift in Sources */,
 				50AE97BB294A79A70011EAEF /* SwiftUIBootCampApp.swift in Sources */,
 			);
@@ -420,6 +432,7 @@
 				DEVELOPMENT_TEAM = W59W3QVKXJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +462,7 @@
 				DEVELOPMENT_TEAM = W59W3QVKXJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
