@@ -15,6 +15,8 @@
 		50AE97D6294A79A90011EAEF /* SwiftUIBootCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97D5294A79A90011EAEF /* SwiftUIBootCampUITests.swift */; };
 		50AE97D8294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97D7294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift */; };
 		50AE97E6294A7AB00011EAEF /* AddingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97E5294A7AB00011EAEF /* AddingText.swift */; };
+		50AE97E8294A88460011EAEF /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE97E7294A88460011EAEF /* Shapes.swift */; };
+		50AE9846294B82F40011EAEF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AE9845294B82F40011EAEF /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		50AE97D5294A79A90011EAEF /* SwiftUIBootCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampUITests.swift; sourceTree = "<group>"; };
 		50AE97D7294A79A90011EAEF /* SwiftUIBootCampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		50AE97E5294A7AB00011EAEF /* AddingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingText.swift; sourceTree = "<group>"; };
+		50AE97E7294A88460011EAEF /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		50AE9845294B82F40011EAEF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 				50AE97BA294A79A70011EAEF /* SwiftUIBootCampApp.swift */,
 				50AE97E4294A7A070011EAEF /* SwiftUILessons */,
 				50AE97BE294A79A80011EAEF /* Assets.xcassets */,
+				50AE97BC294A79A70011EAEF /* ContentView.swift */,
 				50AE97C0294A79A80011EAEF /* Preview Content */,
 			);
 			path = SwiftUIBootCamp;
@@ -132,8 +137,9 @@
 		50AE97E4294A7A070011EAEF /* SwiftUILessons */ = {
 			isa = PBXGroup;
 			children = (
-				50AE97BC294A79A70011EAEF /* ContentView.swift */,
 				50AE97E5294A7AB00011EAEF /* AddingText.swift */,
+				50AE97E7294A88460011EAEF /* Shapes.swift */,
+				50AE9845294B82F40011EAEF /* Colors.swift */,
 			);
 			path = SwiftUILessons;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AE97E8294A88460011EAEF /* Shapes.swift in Sources */,
+				50AE9846294B82F40011EAEF /* Colors.swift in Sources */,
 				50AE97E6294A7AB00011EAEF /* AddingText.swift in Sources */,
 				50AE97BD294A79A70011EAEF /* ContentView.swift in Sources */,
 				50AE97BB294A79A70011EAEF /* SwiftUIBootCampApp.swift in Sources */,
